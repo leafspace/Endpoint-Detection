@@ -1,0 +1,38 @@
+No | Begin | End | Length
+1 | 256 | 1606 | 1350
+2 | 1628 | 2373 | 745
+3 | 3056 | 5908 | 2852
+4 | 6602 | 8065 | 1463
+5 | 8730 | 9845 | 1115
+6 | 10495 | 12295 | 1800
+7 | 12958 | 14692 | 1734
+8 | 15321 | 18085 | 2764
+9 | 18116 | 23728 | 5612
+10 | 24400 | 26422 | 2022
+11 | 27056 | 28561 | 1505
+12 | 28577 | 30819 | 2242
+13 | 30844 | 31904 | 1060
+
+Paragraph number : 13
+Paragraph data number : 33127
+Paragraph useful length : 26264
+
+Settings
+----------------------------
+predict_q : 0.7
+newMeasured_q : 0.7
+N : 256
+FrameShift : 10
+PI : 3.14159
+FilterNumber : 24
+CoefficientOrder : 12
+threshold_h_CepsDistance : 0.95
+threshold_h_EngChart : 0.95
+threshold_h_EngDevia : 0.95
+threshold_h_SpectrumEnt : 0.95
+threshold_l_CepsDistance : 0.05
+threshold_l_EngChart : 0.05
+threshold_l_EngDevia : 0.05
+threshold_l_SpectrumEnt : 0.05
+interim_StateLength : 10
+burst_StateLength : 5

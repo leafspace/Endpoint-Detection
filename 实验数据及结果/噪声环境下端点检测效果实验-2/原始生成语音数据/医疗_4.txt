@@ -1,0 +1,34 @@
+No | Begin | End | Length
+1 | 259 | 1124 | 865
+2 | 1132 | 3716 | 2584
+3 | 4425 | 5078 | 653
+4 | 5120 | 5457 | 337
+5 | 6148 | 9399 | 3251
+6 | 10046 | 11111 | 1065
+7 | 11632 | 11644 | 12
+8 | 11800 | 14241 | 2441
+9 | 14903 | 15782 | 879
+
+Paragraph number : 9
+Paragraph data number : 16983
+Paragraph useful length : 12087
+
+Settings
+----------------------------
+predict_q : 0.7
+newMeasured_q : 0.7
+N : 256
+FrameShift : 10
+PI : 3.14159
+FilterNumber : 24
+CoefficientOrder : 12
+threshold_h_CepsDistance : 0.95
+threshold_h_EngChart : 0.95
+threshold_h_EngDevia : 0.95
+threshold_h_SpectrumEnt : 0.95
+threshold_l_CepsDistance : 0.05
+threshold_l_EngChart : 0.05
+threshold_l_EngDevia : 0.05
+threshold_l_SpectrumEnt : 0.05
+interim_StateLength : 10
+burst_StateLength : 5

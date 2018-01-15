@@ -1,0 +1,35 @@
+No | Begin | End | Length
+1 | 258 | 4254 | 3996
+2 | 4888 | 6804 | 1916
+3 | 7474 | 8823 | 1349
+4 | 9487 | 9766 | 279
+5 | 9779 | 11252 | 1473
+6 | 11965 | 13659 | 1694
+7 | 14352 | 17260 | 2908
+8 | 17909 | 19449 | 1540
+9 | 20143 | 24085 | 3942
+10 | 24695 | 25806 | 1111
+
+Paragraph number : 10
+Paragraph data number : 26959
+Paragraph useful length : 20208
+
+Settings
+----------------------------
+predict_q : 0.7
+newMeasured_q : 0.7
+N : 256
+FrameShift : 10
+PI : 3.14159
+FilterNumber : 24
+CoefficientOrder : 12
+threshold_h_CepsDistance : 0.95
+threshold_h_EngChart : 0.95
+threshold_h_EngDevia : 0.95
+threshold_h_SpectrumEnt : 0.95
+threshold_l_CepsDistance : 0.05
+threshold_l_EngChart : 0.05
+threshold_l_EngDevia : 0.05
+threshold_l_SpectrumEnt : 0.05
+interim_StateLength : 10
+burst_StateLength : 5

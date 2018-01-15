@@ -77,3 +77,12 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+*.log
+*.tlog
+*.pdb
+*.suo
+*.sdf
+
+*Debug
+*.wav
