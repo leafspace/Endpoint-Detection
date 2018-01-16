@@ -85,7 +85,6 @@ $RECYCLE.BIN/
 *.sdf
 
 *Debug
-*.wav
 *.ipch
 *.sln
 *.zip
