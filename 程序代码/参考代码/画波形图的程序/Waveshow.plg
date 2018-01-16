@@ -1,0 +1,59 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Waveshow - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\lee\LOCALS~1\Temp\RSP180.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Waveshow.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\vc源码\Waveshow\Wavepic.cpp"
+"F:\vc源码\Waveshow\Waveshow.cpp"
+"F:\vc源码\Waveshow\WaveshowDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\lee\LOCALS~1\Temp\RSP180.tmp" 
+Creating temporary file "C:\DOCUME~1\lee\LOCALS~1\Temp\RSP181.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Waveshow.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\vc源码\Waveshow\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\lee\LOCALS~1\Temp\RSP181.tmp" 
+Creating temporary file "C:\DOCUME~1\lee\LOCALS~1\Temp\RSP182.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Waveshow.pdb" /debug /machine:I386 /out:"Debug/Waveshow.exe" /pdbtype:sept 
+".\Debug\StdAfx.obj"
+".\Debug\Wavepic.obj"
+".\Debug\Waveshow.obj"
+".\Debug\WaveshowDlg.obj"
+".\Debug\Waveshow.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\lee\LOCALS~1\Temp\RSP182.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+Wavepic.cpp
+F:\vc源码\Waveshow\Wavepic.cpp(257) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+F:\vc源码\Waveshow\Wavepic.cpp(278) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+F:\vc源码\Waveshow\Wavepic.cpp(280) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+F:\vc源码\Waveshow\Wavepic.cpp(283) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+F:\vc源码\Waveshow\Wavepic.cpp(283) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+F:\vc源码\Waveshow\Wavepic.cpp(284) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+F:\vc源码\Waveshow\Wavepic.cpp(284) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+Waveshow.cpp
+WaveshowDlg.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/Waveshow.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\Wavepic.sbr" ".\Debug\Waveshow.sbr" ".\Debug\WaveshowDlg.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Waveshow.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

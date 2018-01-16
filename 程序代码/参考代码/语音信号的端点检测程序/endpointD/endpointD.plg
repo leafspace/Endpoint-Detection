@@ -1,0 +1,90 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: endpointD - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1.XG\LOCALS~1\Temp\RSP18.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/endpointD.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\PiPi_Demo\endpoint\endpointD\16to8.cpp"
+"E:\PiPi_Demo\endpoint\endpointD\basop.cpp"
+"E:\PiPi_Demo\endpoint\endpointD\CreatFeature.cpp"
+"E:\PiPi_Demo\endpoint\endpointD\EndPoint_xhg.cpp"
+"E:\PiPi_Demo\endpoint\endpointD\mfcc_xhg.cpp"
+"E:\PiPi_Demo\endpoint\endpointD\READ_DAT.CPP"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.XG\LOCALS~1\Temp\RSP18.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.XG\LOCALS~1\Temp\RSP19.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/endpointD.pdb" /machine:I386 /out:"Release/endpointD.exe" 
+.\Release\16to8.obj
+.\Release\basop.obj
+.\Release\CreatFeature.obj
+.\Release\EndPoint_xhg.obj
+.\Release\mfcc_xhg.obj
+.\Release\READ_DAT.OBJ
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1.XG\LOCALS~1\Temp\RSP19.tmp"
+<h3>Output Window</h3>
+Compiling...
+16to8.cpp
+basop.cpp
+CreatFeature.cpp
+EndPoint_xhg.cpp
+mfcc_xhg.cpp
+READ_DAT.CPP
+Linking...
+
+
+
+<h3>Results</h3>
+endpointD.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: endpointD - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1.XG\LOCALS~1\Temp\RSP1B.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/endpointD.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\PiPi_Demo\endpoint\endpointD\16to8.cpp"
+"E:\PiPi_Demo\endpoint\endpointD\basop.cpp"
+"E:\PiPi_Demo\endpoint\endpointD\CreatFeature.cpp"
+"E:\PiPi_Demo\endpoint\endpointD\EndPoint_xhg.cpp"
+"E:\PiPi_Demo\endpoint\endpointD\mfcc_xhg.cpp"
+"E:\PiPi_Demo\endpoint\endpointD\READ_DAT.CPP"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.XG\LOCALS~1\Temp\RSP1B.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.XG\LOCALS~1\Temp\RSP1C.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/endpointD.pdb" /debug /machine:I386 /out:"Debug/endpointD.exe" /pdbtype:sept 
+.\Debug\16to8.obj
+.\Debug\basop.obj
+.\Debug\CreatFeature.obj
+.\Debug\EndPoint_xhg.obj
+.\Debug\mfcc_xhg.obj
+.\Debug\READ_DAT.OBJ
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1.XG\LOCALS~1\Temp\RSP1C.tmp"
+<h3>Output Window</h3>
+Compiling...
+16to8.cpp
+basop.cpp
+CreatFeature.cpp
+EndPoint_xhg.cpp
+mfcc_xhg.cpp
+READ_DAT.CPP
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/endpointD.bsc"  .\Debug\16to8.sbr .\Debug\basop.sbr .\Debug\CreatFeature.sbr .\Debug\EndPoint_xhg.sbr .\Debug\mfcc_xhg.sbr .\Debug\READ_DAT.SBR"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+endpointD.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

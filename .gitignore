@@ -86,3 +86,9 @@ $RECYCLE.BIN/
 
 *Debug
 *.wav
+*.ipch
+*.sln
+*.zip
+*.pdf
+*.doc
+*.docx

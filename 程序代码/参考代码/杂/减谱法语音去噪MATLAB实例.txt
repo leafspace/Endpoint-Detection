@@ -1,0 +1,30 @@
+Matlab的谱减法实例
+% 选择.wav音频文件
+[fname,pname]=uigetfile(...
+    {'*.wav';'*.*'},...
+    'Input wav File');
+[x,fs] = audioread(fullfile(pname,fname));
+
+x = x(1:8912,1);     % 如果是双声道，取单通道
+N = length(x);       % 帧长
+max_x = max(x);
+noise_add = random('norm', 0, 0.1*max_x, [N,1]);
+
+% 添加高斯噪声
+y = x + noise_add;
+noise_estimated = random('norm', 0, 0.1*max_x, [N,1]);
+fft_y = fft(y);
+fft_n = fft(noise_estimated);
+E_noise = sum(abs(fft_n)) / N;
+mag_y = abs(fft_y);
+phase_y = angle(fft_y);   % 保留相位信息
+mag_s = mag_y - E_noise;
+mag_s(mag_s<0)=0;
+
+% 恢复
+fft_s = mag_s .* exp(1i.*phase_y);
+s = ifft(fft_s);
+
+subplot(311);plot(x);ylim([-1.5,1.5]);title('原始干净信号');
+subplot(312);plot(y);ylim([-1.5,1.5]);title('加噪信号');
+subplot(313);plot(real(s));ylim([-1.5,1.5]);title('谱减法去噪后信号');
