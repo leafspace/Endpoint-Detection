@@ -78,13 +78,10 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-*.log
-*.tlog
 *.pdb
 *.suo
 *.sdf
 
 *Debug
 *.ipch
-*.sln
 *.zip
